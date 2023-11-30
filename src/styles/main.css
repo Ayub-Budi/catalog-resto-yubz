@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display";
+  overflow-x: hidden;
+}
+
+.hero {
+  background: url('../../src/public/images/hero.jpg') no-repeat center;
+  background-size: cover;
+}
+/* main */
+main {
+  padding: 20px;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #461111;
+  text-align: center;
+}

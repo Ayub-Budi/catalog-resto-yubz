@@ -1,0 +1,64 @@
+/* navbar */
+nav {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    top: 0; /* Add this line to make it sticky at the top */
+    display: flex;
+    background-color: #461111;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    color: rgb(167, 167, 236);
+  }
+
+  nav .logo{
+    color: white;
+  }
+  
+  nav button {
+    width: 50px;
+    height: 44px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background: #b3541e;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: flex-end;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 32px;
+  }
+  
+  nav a {
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  nav ul li a:hover {
+    color: #b3541e;
+  }
+  
+  nav .menu {
+    display: none;
+    flex-direction: column;
+    width: 44px;
+    height: 44px;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #461111;
+  }
+  

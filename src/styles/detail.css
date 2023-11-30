@@ -1,0 +1,120 @@
+.detail-resto {
+  display: flex;
+}
+
+.detail-resto img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.detail-resto .deskripsi {
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu .daftar-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  width: 100%;
+}
+
+.list-menu {
+  padding: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.445);
+  border-radius: 10%;
+  width: 45%;
+}
+
+/* Input Review */
+.input-Review {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.input-Review form {
+  width: 45%;
+}
+.input-Review input[type="text"],
+select {
+  width: 100%;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-Review input[type="submit"] {
+  width: 100%;
+  min-width: 44px;
+  min-height: 44px;
+  background-color: #b3541e;
+  color: white;
+  padding: 14px 25px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-Review input[type="submit"]:hover {
+  background-color: #461111;
+}
+
+/* hasil review */
+.hasil-review {
+  display: grid;
+  padding: 10px;
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.hasil-review .review-item {
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.445);
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.hasil-review .review-item .review-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #ccc;
+  background-color: #b3541e;
+  padding: 5px;
+}
+
+.hasil-review .review-item .review-header .review-name{
+  font-weight: bold;
+}
+
+/* like */
+.like {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db0000;
+
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border-radius: 50%;
+  border: 0;
+
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
