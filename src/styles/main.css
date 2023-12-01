@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-  background: url('../../src/public/images/hero.jpg') no-repeat center;
+  background: url('/src/public/img/hero.jpg') no-repeat center;
   background-size: cover;
 }
 /* main */
