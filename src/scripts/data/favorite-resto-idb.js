@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import { openDB } from 'idb';
 import CONFIG from '../globals/config';
 
@@ -20,7 +21,7 @@ const FavoriteRestoIdb = {
     return (await dbPromise).getAll(OBJECT_STORE_NAME);
   },
   async putResto(resto) {
-    if (!resto.hasOwnProperty('id')) {
+    if (!Object.prototype.hasOwnProperty.call(resto, 'id')) {
       return;
     }
     return (await dbPromise).put(OBJECT_STORE_NAME, resto);
